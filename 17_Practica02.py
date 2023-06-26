@@ -14,3 +14,13 @@ pv = vv + igv
 
 '''
 
+vv = int(input('Ingrese el valor de venta del producto: '))
+igv = vv*0.18
+pv = vv + igv
+
+print(f'''                 
+              FACTURA 
+      ====================== 
+      El precio de venta del 
+      producto es {pv}, valor
+      que incluye el IGV de {igv}.''')
