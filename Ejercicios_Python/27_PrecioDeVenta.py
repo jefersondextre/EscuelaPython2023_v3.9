@@ -25,4 +25,3 @@ print(f'''El precio de venta es: {precVenta} S/. ,
       incluye el IGV con un valor de {IGV} S/.
       
       ''')
-
