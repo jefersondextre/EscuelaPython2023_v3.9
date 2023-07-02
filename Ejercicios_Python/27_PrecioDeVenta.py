@@ -14,3 +14,15 @@ pv = vv + igv
 
 '''
 
+
+precProducto = float(input("Ingrese el precio del producto S/.: "))
+IGV = 0.18 * precProducto
+# IGV= round(IGV)
+precVenta = precProducto + IGV
+
+# Salida
+print(f'''El precio de venta es: {precVenta} S/. ,
+      incluye el IGV con un valor de {IGV} S/.
+      
+      ''')
+

@@ -9,9 +9,9 @@ para hallar el cociente y residuo, para esto use la siguiente expresión.
 
 '''
 print("------- Ingrese los numeros -----")
-div=int(input('Ingrese el dividendo: '))
-divis = int(input('Ingrese el divisor: '))
-residuo = div % divis
-cociente = div // divis
+dividendo=int(input('Ingrese el dividendo: '))
+divisor = int(input('Ingrese el divisor: '))
+cociente = dividendo // divisor  # division entera.
+residuo = dividendo % divisor    # modulo entre los operandos.
 
 print(f'El residuo es {residuo} y el cociente es {cociente}')
