@@ -26,7 +26,7 @@ elif (numero > 0):
 elif numero == 0 :
   print('El numero es neutro sin signo')
   
-# ======================
+# 40 ======================
 n = int(input("Ingrese el número a analizar: "))
 if n != 0:
   if n > 0 : 

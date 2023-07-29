@@ -23,8 +23,10 @@ print(len(datos))
 
 # sumar listas
 print(datos + squares)
+
 # multiplicar
 print(datos*3)
+
 # crear una lista en base a 2 ya existentes
 todos = datos + squares
 print(todos)

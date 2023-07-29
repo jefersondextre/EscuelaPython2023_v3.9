@@ -11,9 +11,9 @@ suma de los N primeros números.
 '''
 # Entrada
 num = int(input('Ingrese un numero:'))
-c=0
-while num > 0:
-  suma=0
-  num -=1
-suma += num 
+suma  = 0
+menores_num = 0
+while menores_num < num:
+        suma += menores_num 
+        menores_num +=1
 print( f'La suma de los numeros anteriores a {num} es: {suma}')  
